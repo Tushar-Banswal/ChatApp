@@ -1,0 +1,139 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    background-image:linear-gradient(#ffafbd, #ffc3a0);
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    position:absolute;
+    top:-20px;
+    left:-20px;
+    width: 50px;
+    height:50px;
+
+}
+
+.container {
+    position: relative;
+    padding:10px;
+    left: 20vw;
+    top:5vh;
+    height:65vh;
+    width: 60vw;
+    display: block; 
+    border-radius: 15px 10px 10px 15px;
+    background-color: #282C35;
+    
+}
+
+.joined {
+    background-color: #3c3e43;
+    font-style: italic;
+    width: 30%;
+    color:whitesmoke;
+    margin:10px auto;
+    text-align: center;
+    clear:both;
+    border-radius: 20px;
+}
+
+.container-1{
+    margin: 0;
+    padding: 0px;
+    overflow: auto;
+    height:100%;
+    width: 100%;
+}
+
+.message {
+    max-width: 100%;
+    
+}
+
+.msg {
+    padding:10px;
+    border-radius: 20px;
+    background-color: #FFE5B4;
+    margin:5px 10px;
+
+}
+.left{ 
+    float:left;
+    clear:both;
+    max-width: 50%;
+}
+
+.right{
+    float:right;
+    clear:both;
+    max-width: 50%;
+}
+
+.send {
+    margin-top:20px;
+    background-color: #282C35;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.input-field {
+    padding:10px 20px;
+    border-radius: 20px;
+    width: 52vw;
+    background-color: #282C35;
+    border:none;
+    color:white
+}
+.input-field:focus {
+    background-color: #282C35;
+    outline: none;
+    color:white;
+}
+.input-field:-webkit-autofill {
+    background-color: #282C35 !important;
+    outline: none;
+    color:white;
+}
+::selection {
+    background-color: #282C35;
+    outline: none;
+    color:white;
+}
+.submit-btn {
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin:10px;
+    background-color: #FFE5B4;
+    border:none;
+    color: #282C35;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    background-color: #282C35;
+    width: 10px;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #FFE5B4;
+    border-radius: 10px;
+    
+}
